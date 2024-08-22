@@ -1,4 +1,4 @@
-import generarFizzBuzz from "./FizzBuzz"
+import { generarFizzBuzz, generarSecuenciaFizzBuzz } from "./FizzBuzz";
 
 describe("FizzBuzz", () => {
   it("Genera el mismo número si no sigue regla", () => {
@@ -18,5 +18,8 @@ describe("FizzBuzz", () => {
   });
   it("Si el número es múltiplo de 3 y 5 se retornará FizzBuzz", () => {
     expect(generarFizzBuzz(15)).toEqual("FizzBuzz");
+  });
+  it("Devolverá una secuencia 1-n siguiendo las reglas implementadas antes", () => {
+    expect(generarSecuenciaFizzBuzz(15)).toEqual("1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz");
   });
 });
