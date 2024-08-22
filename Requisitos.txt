@@ -13,4 +13,5 @@ ejemplo generarFizzBuzz(10)
  - si es múltiplo de 3 se imprime Fizz
  - si es 5 se imprime Buzz
  - si es múltiplo de 5 se imprime Buzz 
- 
+ - si es múltiplo de 3 y 5 devolverá FizzBuzz
+ - imprimir secuencia de 1 -> n
