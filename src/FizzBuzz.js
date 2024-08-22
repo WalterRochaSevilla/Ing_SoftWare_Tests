@@ -1,6 +1,6 @@
 function generarFizzBuzz(n){
     let resp;
-    if (n == 3) resp = "Fizz";
+    if (n % 3 == 0) resp = "Fizz";
     else resp = n +"";
     return resp;
 }
