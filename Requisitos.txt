@@ -1,0 +1,16 @@
+contador
+
+- si el número es 3 o múltiplo del mismo se imprime Fizz
+- si el número es 5 o múltiplo del mismo se imprime Buzz
+- si el número es múltiplo de 3 y 5 se imprime Fizz Buzz
+
+ejemplo generarFizzBuzz(10)
+1,2,Fizz,4,Buzz,Fizz,7,8,Fizz,Buzz
+
+-PRUEBAS 
+ - generar un número
+ - si es 3 se imprime Fizz
+ - si es múltiplo de 3 se imprime Fizz
+ - si es 5 se imprime Buzz
+ - si es múltiplo de 5 se imprime Buzz 
+ 
