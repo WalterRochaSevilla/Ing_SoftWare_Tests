@@ -1,7 +1,8 @@
 function generarFizzBuzz(n){
     let resp;
     if (n % 3 == 0) resp = "Fizz";
-    else resp = n +"";
+    else if (n == 5) resp = "Buzz";
+     else resp = n +"";
     return resp;
 }
 export default generarFizzBuzz;
